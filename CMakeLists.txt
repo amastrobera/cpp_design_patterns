@@ -8,4 +8,6 @@ add_subdirectory(factory)
 
 add_subdirectory(observer)
 
+add_subdirectory(command)
+
 #... others

@@ -1,5 +1,5 @@
-#ifndef factory_h
-#define factory_h
+#ifndef observer_h
+#define observer_h
 
 #include <map>
 #include <memory>
