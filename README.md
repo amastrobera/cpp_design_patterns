@@ -7,4 +7,6 @@ To build everything, I required c++11 and cmake. So, the classic `mkdir build &&
 
 1. [Composite Pattern](/composite)
 
+2. [Factory Pattern](/factory)
+
 

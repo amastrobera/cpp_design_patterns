@@ -7,48 +7,45 @@
 namespace design_patterns
 {
 
-class Action 
+class Action
 {
-public:
-    Action(std::string const& name);
-    virtual ~Action();
-    virtual void execute() = 0;
-    virtual void add(std::unique_ptr<Action> action);
-protected:
-    std::string mName, mType;
-};
+  public:
+  Action(std::string const& name);
+  virtual ~Action();
+  virtual void execute() = 0;
+  virtual void add(std::unique_ptr<Action> action);
 
+  protected:
+  std::string mName, mType;
+};
 
 class Check : public Action
 {
-public:
-    Check(std::string const& name);
-    virtual ~Check();
-    virtual void execute();
+  public:
+  Check(std::string const& name);
+  virtual ~Check();
+  virtual void execute();
 };
 
 class Move : public Action
 {
-public:
-    Move(std::string const& name);
-    virtual ~Move();
-    virtual void execute();
+  public:
+  Move(std::string const& name);
+  virtual ~Move();
+  virtual void execute();
 };
-
-
 
 class CompositeAction : public Action
 {
-public:
-    CompositeAction(std::string const& name);
-    virtual ~CompositeAction();
-    virtual void execute();    
-    virtual void add(std::unique_ptr<Action> action);
-protected:
-    std::vector<std::unique_ptr<Action>> mChildren;
+  public:
+  CompositeAction(std::string const& name);
+  virtual ~CompositeAction();
+  virtual void execute();
+  virtual void add(std::unique_ptr<Action> action);
+
+  protected:
+  std::vector<std::unique_ptr<Action> > mChildren;
 };
-
-
 }
 
 #endif
