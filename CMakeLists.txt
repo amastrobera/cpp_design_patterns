@@ -6,4 +6,6 @@ add_subdirectory(composite)
 
 add_subdirectory(factory)
 
+add_subdirectory(observer)
+
 #... others

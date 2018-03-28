@@ -5,8 +5,8 @@ This repo contains an example of (my favourite) patterns implemented in (my favo
 
 To build everything, I required c++11 and cmake. So, the classic `mkdir build && cd build` and `cmake .. && make \-j4` is expected to build.
 
-1. [Composite Pattern](/composite)
+1. [Composite](/composite)
 
-2. [Factory Pattern](/factory)
+2. [Factory](/factory)
 
-
+3. [Observer](/observer)
