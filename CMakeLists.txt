@@ -12,3 +12,5 @@ add_subdirectory(command)
 
 add_subdirectory(strategy)
 
+add_subdirectory(singleton)
+
