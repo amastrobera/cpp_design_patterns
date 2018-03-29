@@ -1,4 +1,4 @@
-#### Strategy Pattern ####
+#### Strategy Pattern ###
 
 A strategy is a pattern that allows to achieve the same goal, using one of many different ways. For example, sorting an array using one of the (classic) algorithms such as *merge-sort* or *quick-sort*. I would like to test this pattern in this way:
 
@@ -71,7 +71,7 @@ using merge_sort
 ```
 
 * **C++ Inheritance**
-A `Sorter` base class, and `MergeSort`, `QuickSort` derived classes to override the method `void sort(container&)`.  I have already done this with the [factory pattern](/../factory) so I will just describe the idea. 
+A `Sorter` base class, and `MergeSort`, `QuickSort` derived classes to override the method `void sort(container&)`.  I have already done this with the [factory pattern](/../master/factory) so I will just describe the idea. 
 ```
 // main.cpp
 // build : g++ --std=c++11 main.cpp
