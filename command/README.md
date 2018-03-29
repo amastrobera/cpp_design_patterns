@@ -14,7 +14,6 @@ As reflected in the execution:
     $ ./command/command 
     --- using joint 'Elbow' in degrees mode
     --- activated Actuator Elb_Act on joint 'Elbow'
-    exception: no arg 'ciao' 
     > Actuator.execute(30, 10)
     > Joint 'Elbow' move to pos: 30 with speed: 10
     --- deactivated Actuator Elb_Act

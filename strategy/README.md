@@ -47,6 +47,7 @@ And would result in this:
     terminating: a[0]=1
 
  * **C++11 function**
+
 [std::function](http://www.cplusplus.com/reference/functional/function/)  can wrap any *callable element* into a copyable object. It can wrap a function, a function pointer, a pointer to member, or any kind of function object (i.e., an object whose class defines operator(), including _closures_).  In code terms, it can be used in either of these ways:
 ```
 //function, function 
@@ -71,6 +72,7 @@ using merge_sort
 ```
 
 * **C++ Inheritance**
+
 A `Sorter` base class, and `MergeSort`, `QuickSort` derived classes to override the method `void sort(container&)`.  I have already done this with the [factory pattern](/../master/factory) so I will just describe the idea. 
 ```
 // main.cpp
@@ -136,6 +138,7 @@ merge-sorting array
 
 
 * **C++ Functors**
+
 A `Sorter`base class, and other two+ deverived classes, overloading the `void operator()(container&)`.  In this example, to use over the whole container of items, rather than one by one in a loop (as usual for functors). 
 
 
