@@ -12,3 +12,5 @@ To build everything, I required c++11 and cmake. So, the classic `mkdir build &&
 3. [Observer](/observer)
 
 4. [Command](/command)
+
+5. [Strategy](/strategy)

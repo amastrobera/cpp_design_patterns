@@ -10,4 +10,5 @@ add_subdirectory(observer)
 
 add_subdirectory(command)
 
-#... others
+add_subdirectory(strategy)
+
