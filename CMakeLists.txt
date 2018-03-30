@@ -16,4 +16,5 @@ add_subdirectory(singleton)
 
 add_subdirectory(proxy)
 
+add_subdirectory(decorator)
 

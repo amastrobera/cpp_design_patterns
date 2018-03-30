@@ -21,3 +21,6 @@ I try to give a spin to this repo by added some interesting c++11 features, such
 6. [Singleton](/singleton)
 
 7. [Proxy](/proxy)
+
+8. [Decorator](/decorator)
+
