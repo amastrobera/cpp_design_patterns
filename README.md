@@ -1,11 +1,16 @@
 ### Design Patterns with c++ ###
 
-This repo contains an example of (my favourite) patterns implemented in (my favourite language) c++.
+This repo contains examples of my favourite patterns implemented in my favourite language.
 
 
-To build everything, I required c++11 and cmake. So, the classic `mkdir build && cd build` and `cmake .. && make -j4` is expected to build.
+It is based on c++11 and cmake. So, build it with the classic 
 
-I try to give a spin to this repo by added some interesting c++11 features, such as scoped pointers, threads & locks, new function pointers, variadic arguments. To achieve that I use the libraries: `functional`, `memory`, `thrad`, `mutex`.
+```
+mkdir build && cd build
+cmake .. && make -j4
+```
+
+I tried to give a spin to this repo by adding some interesting c++11 features, such as scoped pointers, threads & locks, new function pointers, variadic arguments. To achieve that I use the libraries: `functional`, `memory`, `thrad`, `mutex`.
 
 
 1. [Composite](/composite)
